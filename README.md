@@ -2,11 +2,29 @@
 
 Este repositorio contiene los materiales correspondientes al **Módulo 2 del Curso Propedéutico** de la **Maestría en Ciencia de los Datos** del **Centro Universitario de Ciencias Económico Administrativas (CUCEA)**, Universidad de Guadalajara.
 
-El objetivo del curso propedéutico es brindar a los aspirantes una base sólida en conceptos clave de estadística, probabilidad, cálculo multivariante y álgebra lineal, que serán fundamentales para su desempeño académico durante el posgrado. Las sesiones se imparten en modalidad virtual, en el horario de **6:00 p.m. a 9:00 p.m.**, y están a cargo del profesor **Iván Toledano**.
+El objetivo del curso propedéutico es brindar a los aspirantes una base sólida en conceptos clave de estadística, probabilidad, cálculo multivariante y álgebra lineal, que serán fundamentales para su desempeño académico durante el posgrado.
 
-El temario de esta sección cubre los siguiente campos:
+### 🕒 Horario de clases
 
-## MÓDULO 2  
+Las sesiones se llevarán a cabo de **6:00 p.m. a 9:00 p.m.** en los días establecidos por la coordinación del posgrado.
+
+### 📬 Contacto
+
+**Profesor responsable:** Iván Toledano  
+**Correo electrónico:** [ivan.toledano@academicos.udg.mx](mailto:ivan.toledano@academicos.udg.mx)  
+
+## 🧰 Requisitos
+
+Para ejecutar los notebooks de este curso, se recomienda contar con una distribución de Python que incluya las principales bibliotecas científicas. La forma más sencilla de lograrlo es instalando [**Anaconda**](https://www.anaconda.com/products/distribution), que incluye:
+
+- Jupyter Notebook / JupyterLab  
+- NumPy, pandas, matplotlib, seaborn  
+- SciPy, scikit-learn y otras bibliotecas útiles  
+
+
+
+## TEMARIO DEL MÓDULO 2
+
 ### Introducción a la Estadística y Probabilidad
 
 ---
@@ -121,7 +139,7 @@ Comprender la importancia del cálculo multivariante en el área del *machine le
 ### Unidad 5. Álgebra Lineal y Geometría Analítica
 
 **Objetivo Particular:**  
-Comprender la utilidad del álgebra lineal y la geometría analítica en el análisis de similitud entre individuos y el procesamiento de datos, incluyendo imágenes y modelos matemáticos.
+Comprender la utilidad del álgebra lineal y la geometría analítica en el procesamiento de datos y modelos matemáticos.
 
 #### Contenido:
 
@@ -144,12 +162,3 @@ Comprender la utilidad del álgebra lineal y la geometría analítica en el aná
   - Tensores  
 
 ---
-
-### 🕒 Horario de clases
-
-Las sesiones se llevarán a cabo de **6:00 p.m. a 9:00 p.m.** en los días establecidos por la coordinación del posgrado.
-
-### 📬 Contacto
-
-**Profesor responsable:** Iván Toledano  
-**Correo electrónico:** [ivan.toledano@academicos.udg.mx](mailto:ivan.toledano@academicos.udg.mx)  
