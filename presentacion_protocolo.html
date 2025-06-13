@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
             overflow: hidden;
         }
 
@@ -56,7 +56,7 @@
             left: 0;
             right: 0;
             height: 5px;
-            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+            background: linear-gradient(90deg, #1e3a8a, #3b82f6, #60a5fa);
         }
 
         h1 {
@@ -74,7 +74,7 @@
         }
 
         h3 {
-            color: #667eea;
+            color: #1e40af;
             font-size: 1.5rem;
             margin-bottom: 15px;
             font-weight: 600;
@@ -101,7 +101,7 @@
         }
 
         .nav-btn {
-            background: #667eea;
+            background: #1e40af;
             color: white;
             border: none;
             padding: 12px 20px;
@@ -113,7 +113,7 @@
         }
 
         .nav-btn:hover {
-            background: #5a67d8;
+            background: #1e3a8a;
             transform: translateY(-2px);
         }
 
@@ -154,55 +154,40 @@
         }
 
         .circle1 {
-            background: #667eea;
+            background: #1e40af;
             top: 0;
             left: 175px;
         }
 
         .circle2 {
-            background: #f093fb;
+            background: #3b82f6;
             bottom: 0;
             left: 50px;
         }
 
         .circle3 {
-            background: #4facfe;
+            background: #60a5fa;
             bottom: 0;
             right: 50px;
         }
 
-        .venn-title {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(255,255,255,0.95);
-            padding: 15px 25px;
-            border-radius: 10px;
-            color: #2d3748;
-            font-weight: bold;
-            font-size: 1.1rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            max-width: 300px;
-        }
-
         /* Background images for specific slides */
         .slide.bg-tech {
-            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), 
+            background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
                         url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
         }
 
         .slide.bg-data {
-            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), 
-                        url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
+                        url('https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
         }
 
         .highlight-box {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #1e40af, #1e3a8a);
             color: white;
             padding: 20px;
             border-radius: 15px;
@@ -221,7 +206,7 @@
             background: #f7fafc;
             padding: 20px;
             border-radius: 15px;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #1e40af;
             text-align: left;
         }
 
@@ -233,7 +218,7 @@
         }
 
         .timeline-item {
-            background: #667eea;
+            background: #1e40af;
             color: white;
             padding: 15px;
             border-radius: 10px;
@@ -250,7 +235,7 @@
         .university-logo {
             width: 100px;
             height: 100px;
-            background: #667eea;
+            background: #1e40af;
             border-radius: 50%;
             margin: 0 auto 20px;
             display: flex;
@@ -266,6 +251,18 @@
             padding: 20px;
             background: #f7fafc;
             border-radius: 15px;
+        }
+
+        /* Dark background slide text contrast */
+        .slide.bg-tech .highlight-box h3,
+        .slide.bg-data .highlight-box h3 {
+            color: white;
+        }
+
+        .slide.bg-tech h2,
+        .slide.bg-data h2 {
+            color: #1e3a8a;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
         }
     </style>
 </head>
@@ -290,7 +287,7 @@
 
         <!-- Slide 2: Diagrama de Venn -->
         <div class="slide">
-            <h2>Diagrama de Venn del Proyecto</h2>
+            <h2>Modelos Predictivos SaaS con Ciencia de Datos</h2>
             <div class="venn-container">
                 <div class="venn-circle circle1">
                     <div>
@@ -309,9 +306,6 @@
                         <strong>¿Dónde aplicarlo?</strong><br><br>
                         Empresas de Software como Servicio (SaaS)
                     </div>
-                </div>
-                <div class="venn-title">
-                    Modelos Predictivos SaaS con Ciencia de Datos
                 </div>
             </div>
         </div>
