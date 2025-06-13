@@ -171,28 +171,25 @@
             right: 50px;
         }
 
-        /* Background images for specific slides */
-        .slide.bg-tech {
-            background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
-                        url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
-            background-size: cover;
-            background-position: center;
-        }
-
+        /* Remove background images - clean slides */
+        .slide.bg-tech,
         .slide.bg-data {
-            background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), 
-                        url('https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
-            background-size: cover;
-            background-position: center;
+            background: white;
         }
 
         .highlight-box {
-            background: linear-gradient(135deg, #1e40af, #1e3a8a);
-            color: white;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            color: #1e3a8a;
+            border: 2px solid #3b82f6;
             padding: 20px;
             border-radius: 15px;
             margin: 20px 0;
             font-weight: 600;
+        }
+
+        .highlight-box h3 {
+            color: #1e3a8a !important;
+            margin-bottom: 10px;
         }
 
         .objectives-grid {
@@ -253,17 +250,7 @@
             border-radius: 15px;
         }
 
-        /* Dark background slide text contrast */
-        .slide.bg-tech .highlight-box h3,
-        .slide.bg-data .highlight-box h3 {
-            color: white;
-        }
-
-        .slide.bg-tech h2,
-        .slide.bg-data h2 {
-            color: #1e3a8a;
-            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
-        }
+        /* Remove old dark background slide text contrast rules */
     </style>
 </head>
 <body>
